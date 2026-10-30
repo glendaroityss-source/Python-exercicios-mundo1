@@ -1,0 +1,8 @@
+nome_completo = input('Qual é o seu nome completo? ')
+print(nome_completo.upper())
+print(nome_completo.lower())
+total_letras = len(nome_completo) - nome_completo.count(' ')
+print(f'Seu nome completo tem {total_letras} letras')
+separação = nome_completo.split()
+nomes = len(separação[0])
+print(f'Seu primeiro nome é {separação[0]} e ele tem {nomes} letras')
